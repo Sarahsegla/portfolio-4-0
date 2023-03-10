@@ -1,1 +1,12 @@
 import React from 'react' ;
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Home from './components/Home';
+import Project from './components/Project';
+import ProjectGallery from './components/ProjectGallery';
+
+
+function App() {
+    return 
+    
+}
