@@ -4,3 +4,5 @@ import React from 'react' ;
 function ProjectGallery(props) {
     return
 }
+
+export default ProjectGallery;
