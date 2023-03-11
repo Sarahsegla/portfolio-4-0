@@ -1,12 +1,19 @@
 import React from 'react' ;
-import Contact from './components/Contact';
-import Header from './components/Header';
-import Home from './components/Home';
-import Project from './components/Project';
-import ProjectGallery from './components/ProjectGallery';
+import _Home from './components/Home' ;
+// import _Contact from './components/Contact';
+// import _Header from './components/Header';
+// import _Project from './components/Project';
+// import _ProjectGallery from './components/ProjectGallery';
 
 
 function App() {
-    return 
+    return (
+        <>
+        <_Home />
+        <h1>Sup</h1>
+        </>
+    )
     
 }
+
+export default App;

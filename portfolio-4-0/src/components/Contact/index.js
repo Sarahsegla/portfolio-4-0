@@ -1,6 +1,10 @@
 import React from 'react' ;
-import "./styles.css"; 
 
 function Contact(props) {
-    return
+    return (
+        <p>Contact ME</p>
+    )
 }
+
+
+export default Contact;
