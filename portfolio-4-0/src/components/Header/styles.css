@@ -1,3 +1,4 @@
-.navbar {
-    
-}
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+
+@include icon-button.core-styles;
