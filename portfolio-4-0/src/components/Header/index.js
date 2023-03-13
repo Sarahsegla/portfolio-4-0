@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 
 const pages = ['Home', 'Project Gallery', 'Project', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 
 
 
@@ -43,7 +43,7 @@ function Header(props) {
       <AppBar position="static">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+            
             <Typography
               variant="h6"
               noWrap
@@ -98,7 +98,7 @@ function Header(props) {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+
             <Typography
               variant="h5"
               noWrap
@@ -130,11 +130,7 @@ function Header(props) {
             </Box>
   
             <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title="Open settings">
-                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                </IconButton>
-              </Tooltip>
+
               <Menu
                 sx={{ mt: '45px' }}
                 id="menu-appbar"
@@ -151,11 +147,7 @@ function Header(props) {
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}
               >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
-                  </MenuItem>
-                ))}
+
               </Menu>
             </Box>
           </Toolbar>
