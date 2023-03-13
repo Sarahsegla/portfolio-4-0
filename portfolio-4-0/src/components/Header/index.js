@@ -1,5 +1,7 @@
 import React from 'react' ;
-import AppBar from '@mui/material/AppBar';
+import  AppBar  from '@mui/material/AppBar';
+import { Button } from '@material-ui/core';
+//import Tpyography from '@material/typography/mdc-typography'
 // import '' ;
 
 
@@ -9,7 +11,8 @@ function Header(props) {
     return (
     <div>
         <AppBar>
-            sarah bar
+            <h1>SarahSegla</h1>
+            <Button variant="text">Home</Button>
         </AppBar>
     </div>
     )
