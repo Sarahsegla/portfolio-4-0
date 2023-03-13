@@ -1,10 +1,10 @@
 
 import React from 'react';
-//import ".styles.css";
+import './Home.css';
 
 function Home(props) {
     return (
-        <div>
+        <div className='Home' id='HomeID'>
             <h1> Hello Sarah</h1>
         </div>
     );

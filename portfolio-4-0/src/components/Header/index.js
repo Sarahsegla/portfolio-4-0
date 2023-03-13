@@ -110,7 +110,7 @@ function Header(props) {
                 fontFamily: 'monospace',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'inherit',
+                color: 'White',
                 textDecoration: 'none',
               }}
             >
