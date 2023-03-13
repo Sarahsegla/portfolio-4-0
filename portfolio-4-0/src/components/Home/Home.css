@@ -1,10 +1,16 @@
 .Home {
-    background-color: rgb(43, 38, 38);
+    background-image: url(../Assets/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
- .image {
-    
-    width: 900px;
-    height:600px;
-   
-} 
+
+.MyAvatar {
+    width: 350px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 35%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
