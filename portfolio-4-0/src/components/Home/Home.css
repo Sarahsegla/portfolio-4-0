@@ -14,3 +14,27 @@
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+.myName {
+    color: red;
+}
+
+.job {
+    color: white;
+}
+
+.summary {
+    color: white;
+    background-color: black;
+}
+
+.aboutBox {
+    background-color: black;
+}
+
+.MoreInfo {
+    color: white;
+    list-style-type: none;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
