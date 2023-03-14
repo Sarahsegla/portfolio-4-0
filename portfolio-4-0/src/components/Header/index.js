@@ -9,6 +9,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
 
 
@@ -116,8 +117,20 @@ function Header(props) {
             >
            
             </Typography>
-            <Box sx={{ flexGrow: 1, display:'flex', justifyContent: 'flex-end'  }}>
-              {pages.map((page) => (
+             <Box sx={{ flexGrow: 1, display:'flex', justifyContent: 'flex-end'  }}>
+<Button Components={Link} to='/Home'>
+Home
+</Button>
+<Button Components={Link} to='/Project'>
+Project
+</Button>
+<Button Components={Link} to='/Project Gallery'>
+Project Gallery
+</Button>
+<Button Components={Link} to='/Contact'>
+Contact
+</Button>
+              {/* {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
@@ -125,8 +138,8 @@ function Header(props) {
                 >
                   {page}
                 </Button>
-              ))}
-            </Box>
+              ))} */}
+            </Box> 
   
             <Box sx={{ flexGrow: 0 }}>
 

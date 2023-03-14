@@ -26,14 +26,14 @@ function Home(props) {
     </Box>
 <Box>
     <h1 className='myName'>Sarah Segla</h1>
-    <p className='job' >Front-end developer</p>
+    <p className='job'>Front-end developer</p>
 </Box>
    
 <Box sx={{ flexGrow: 1 }} className='aboutBox' >
 <Grid container spacing={2} columns={16}>
   <Grid item  xs={6} md={8}>
     <Item>
-    <p className='summary' >Hi, welcome to my portfolio page. I'm Web developer that is committed and has a positive work attitude. Experienced working alone and  in group collaborations.
+    <p className='summary'>Hi, welcome to my portfolio page. I'm Web developer that is committed and has a positive work attitude. Experienced working alone and  in group collaborations.
          Dedicated to improving my skills and learning more to  deliver feature rich websites.</p>
     </Item>
   </Grid>
