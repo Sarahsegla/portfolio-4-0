@@ -15,6 +15,7 @@ function App() {
         <>
         <Header />
         <Wrapper>
+            <Home />
             <Routes>
                 <Route path="/Home" element={<Home />} />
                 <Route path="/ProjectGallery" element={<ProjectGallery />} />
