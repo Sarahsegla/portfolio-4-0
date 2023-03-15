@@ -92,7 +92,11 @@ function Header(props) {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography textAlign="center">
+
+                      <Link to={`/${page}`}>{page}</Link>
+
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -118,7 +122,7 @@ function Header(props) {
            
             </Typography>
              <Box sx={{ flexGrow: 1, display:'flex', justifyContent: 'flex-end'  }}>
-<Button Components={Link} to='/Home'>
+{/* <Button Components={Link} to='/Home'>
 Home
 </Button>
 <Button Components={Link} to='/Project'>
@@ -129,16 +133,17 @@ Project Gallery
 </Button>
 <Button Components={Link} to='/Contact'>
 Contact
-</Button>
-              {/* {pages.map((page) => (
+</Button> */}
+               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: 'white', display: 'block' }}
                 >
-                  {page}
+                  <Link to={`/${page}`}>{page}</Link>
+                  
                 </Button>
-              ))} */}
+              ))} 
             </Box> 
   
             <Box sx={{ flexGrow: 0 }}>

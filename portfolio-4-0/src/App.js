@@ -6,27 +6,27 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Project from './components/Project';
 import ProjectGallery from './components/ProjectGallery';
-import Wrapper from './components/Wrapper';
+
 
 
 function App() {
     return (
-        <Router>
-        <>
+        
+        <div className='app' >
         <Header />
-        {/* <Home /> */}
-        <Wrapper>
+
             
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path="/ProjectGallery" element={<ProjectGallery />} />
-                <Route path="/Project" element={<Project />} />
-                <Route path="/Contact" element={<Contact />} />
+                <Route path='Home' element={<Home />} />
+                <Route path="ProjectGallery" element={<ProjectGallery />} />
+                <Route path="Project" element={<Project />} />
+                <Route path="Contact" element={<Contact />} />
             </Routes>
-        </Wrapper>
         
-        </>
-        </Router>
+        
+        </div>
+        
     )
     
 }
