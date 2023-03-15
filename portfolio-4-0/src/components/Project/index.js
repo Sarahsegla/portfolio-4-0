@@ -1,6 +1,6 @@
 import React from 'react' ;
 import MyProject from '../../myProject.json';
-//import ".styles.css";
+import "./styles.css";
 
 function Project(props) {
     return (
@@ -13,8 +13,9 @@ function Project(props) {
     MyProject && MyProject.map( Project => {
         return(
             <div className='box' key={ Project.id }>
-                <img src={ Project.image } />
-                { Project.caption }
+                <img className='projectImage' src={ Project.image } alt=' project'  />
+               <p className='caption' ><a href={ Project.url}>  { Project.caption }</a> </p>
+               <p> <a href={ Project.GitUrl}> Checkout my GitHub Repository</a> </p>
                 </div>
         )
     })

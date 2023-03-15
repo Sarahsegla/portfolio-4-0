@@ -1,0 +1,15 @@
+.box {
+   
+    width: 80%;
+    
+    margin-bottom: 25px;
+    display:flex;
+}
+
+.projectImage {
+    width: 700px;
+    height: auto;
+}
+.caption {
+    font-size: 35px;
+}

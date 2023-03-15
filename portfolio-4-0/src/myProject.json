@@ -2,21 +2,29 @@
     {
         "id": 1,
         "caption": "Work Day Schedule",
-        "image": "images/workday.png"
+        "image": "images/workday.png",
+        "url": "https://sarahsegla.github.io/Work-Day-Scheduler/",
+        "GitUrl": "https://github.com/Sarahsegla/Work-Day-Scheduler"
     },
     {
         "id": 2,
         "caption": "Weather Dashboard",
-        "image": "images/weather.png"
+        "image": "images/weather.png",
+        "url": "https://sarahsegla.github.io/Weather-Dashboard/",
+        "GitUrl": "https://github.com/Sarahsegla/Weather-Dashboard"
     },
     {
         "id": 3,
         "caption": "Moviepedia",
-        "image": "images/movie.png"
+        "image": "images/movie.png",
+        "url": "https://mohseenhamid.github.io/tsbc-project-1-moviepedia/",
+        "GitUrl": "https://github.com/mohseenHamid/tsbc-project-1-moviepedia"
     },
     {
         "id": 4,
         "caption": "Old Portfolio",
-        "image": "images/portfolio3.png"
+        "image": "images/portfolio3.png",
+        "url": "https://sarahsegla.github.io/Portfolio-3/",
+        "GitUrl": "https://github.com/Sarahsegla/Portfolio-3"
     }
 ]
