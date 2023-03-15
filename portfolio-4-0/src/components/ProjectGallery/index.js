@@ -1,8 +1,11 @@
 import React from 'react' ;
-//import ".styles.css";
+import "./styles.css";
 
 function ProjectGallery(props) {
-    return
+    return (
+       <div className='soon'  >Coming soon...</div> 
+    )
+    
 }
 
 export default ProjectGallery;
