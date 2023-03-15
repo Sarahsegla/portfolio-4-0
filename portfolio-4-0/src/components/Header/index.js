@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const pages = ['Home', 'Project Gallery', 'Project', 'Contact'];
+const pages = ['Home', 'ProjectGallery', 'Project', 'Contact'];
 
 
 
