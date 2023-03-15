@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-4-0/static/css/main.05b58ca9.css",
-    "main.js": "/portfolio-4-0/static/js/main.373f7427.js",
+    "main.js": "/portfolio-4-0/static/js/main.62cb74fd.js",
     "static/media/john-towner-JgOeRuGD_Y4-unsplash.jpg": "/portfolio-4-0/static/media/john-towner-JgOeRuGD_Y4-unsplash.98664e295a7d2d25e44a.jpg",
     "static/media/me.jpg": "/portfolio-4-0/static/media/me.ba77b9c77411b2260444.jpg",
     "index.html": "/portfolio-4-0/index.html",
     "main.05b58ca9.css.map": "/portfolio-4-0/static/css/main.05b58ca9.css.map",
-    "main.373f7427.js.map": "/portfolio-4-0/static/js/main.373f7427.js.map"
+    "main.62cb74fd.js.map": "/portfolio-4-0/static/js/main.62cb74fd.js.map"
   },
   "entrypoints": [
     "static/css/main.05b58ca9.css",
-    "static/js/main.373f7427.js"
+    "static/js/main.62cb74fd.js"
   ]
 }
