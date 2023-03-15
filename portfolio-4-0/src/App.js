@@ -18,7 +18,7 @@ function App() {
         <Wrapper>
             
             <Routes>
-                <Route path="/Home" element={<Home />} />
+                {/* <Route path="/Home" element={<Home />} /> */}
                 <Route path="/ProjectGallery" element={<ProjectGallery />} />
                 <Route path="/Project" element={<Project />} />
                 <Route path="/Contact" element={<Contact />} />
