@@ -12,7 +12,7 @@ import ProjectGallery from './components/ProjectGallery';
 function App() {
     return (
         
-        <div className='app' >
+        <div >
         <Header />
 
             
