@@ -26,7 +26,7 @@ function Home(props) {
     </Box>
 <Box>
     <h1 className='myName'>Sarah Segla</h1>
-    <p className='job'>Front-end developer</p>
+    <p className='job'>Front-end Developer</p>
 </Box>
    
 <Box sx={{ flexGrow: 1 }} className='aboutBox' >

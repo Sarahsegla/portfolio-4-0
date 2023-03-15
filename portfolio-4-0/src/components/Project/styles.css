@@ -10,6 +10,15 @@
     width: 700px;
     height: auto;
 }
-.caption {
+.caption, .git {
     font-size: 35px;
+    padding-left: 20px;
+    color: inherit;
+}
+
+.title {
+    color: white;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    text-align: center;
 }
