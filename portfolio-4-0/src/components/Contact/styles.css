@@ -5,3 +5,15 @@
     text-align: center;
     padding-top: 30px;
 }
+
+.contactBox {
+    border: 1px solid red;
+    text-align: center;
+    
+}
+
+.submitButton {
+    background-color: red;
+    
+}
+
