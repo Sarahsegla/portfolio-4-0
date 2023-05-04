@@ -1,6 +1,6 @@
 import React from 'react' ;
 import './styles.css';
-import { useState } from 'react';
+//import { useState } from 'react';
 
 function Contact(props) {
 
@@ -24,9 +24,10 @@ function Contact(props) {
 //         console.log(error);
 //     }
 // };
-const [name, setName] = useState("");
-const [email, setEmail] = useState("");
-const [userInput, setUserInput] = useState("");
+
+// const [name, setName] = useState("");
+// const [email, setEmail] = useState("");
+// const [userInput, setUserInput] = useState("");
 
 
 
@@ -34,11 +35,13 @@ const [userInput, setUserInput] = useState("");
     return (
         <div>
         <div className='contact' >
-        <p>Contact ME:</p>
-        <p><a href={"https://www.linkedin.com/in/sarah-segla-6788a4203/"} >Linkedin</a></p>
-        <p><a href={"mailto:ablavisarahsegla@gmail.com"}>Ablavisarahsegla@gmail.com</a></p>
+        <p>Contact Me:</p>
+        <p><a style={{ textDecoration: 'none', color: 'red' }} href={"https://www.linkedin.com/in/sarah-segla-6788a4203/"} >Linkedin</a></p>
+        <p>Github:<a style={{ textDecoration: 'none', color: 'red' }} href={"https://github.com/Sarahsegla"}> Sarahsegla</a></p>
+        <p><a style={{ textDecoration: 'none', color: 'red' }} href={"mailto:ablavisarahsegla@gmail.com"}>Ablavisarahsegla@gmail.com</a></p>
+        
         </div>
-        <div className='contactBox'>
+        {/* <div className='contactBox'>
             <h1 className='form'> 
             <span>Contact Form</span>
             <form>
@@ -63,7 +66,7 @@ const [userInput, setUserInput] = useState("");
             </form>
 
             </h1>
-        </div>
+        </div> */}
 
         </div>
     )

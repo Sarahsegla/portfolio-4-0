@@ -1,6 +1,6 @@
 import React from 'react' ;
 import './app.css';
-import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom' ;
+import { Routes, Route } from 'react-router-dom' ;
 import Home from './components/Home' ;
 import Contact from './components/Contact';
 import Header from './components/Header';
@@ -14,8 +14,7 @@ function App() {
         
         <div >
         <Header />
-
-            
+        <div className='path'>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='Home' element={<Home />} />
@@ -23,8 +22,7 @@ function App() {
                 <Route path="Project" element={<Project />} />
                 <Route path="Contact" element={<Contact />} />
             </Routes>
-        
-        
+            </div>
         </div>
         
     )

@@ -4,10 +4,11 @@ import "./styles.css";
 import Button from '@mui/material/Button';
 
 
+
 function Project(props) {
     return (
         <div className='Project'>
-            <h1 className='title' >My Projects</h1>
+            <h1 className='title'>My Projects</h1>
         
 
         <div className='inside'>
@@ -15,7 +16,7 @@ function Project(props) {
     MyProject && MyProject.map( Project => {
         return(
             <div className='box' key={ Project.id }>
-                <img  className='projectImage' src={process.env.PUBLIC_URL + Project.image } alt=' project'  />
+                <img src={Project.image } alt='project' className='projectImage' />
                <Button className='caption' variant="outlined" color="error"><a href={ Project.url}>  { Project.caption }</a> </Button>
                <Button className='git' variant="outlined" color="error"> <a href={ Project.GitUrl}> Checkout my GitHub Repository</a> </Button>
                 </div>

@@ -2,21 +2,21 @@
     {
         "id": 1,
         "caption": "Work Day Schedule",
-        "image": "images/workday.png",
+        "image": "../image/workday.png",
         "url": "https://sarahsegla.github.io/Work-Day-Scheduler/",
         "GitUrl": "https://github.com/Sarahsegla/Work-Day-Scheduler"
     },
     {
         "id": 2,
         "caption": "Weather Dashboard",
-        "image": "images/weather.png",
+        "image": "../image/weather.png",
         "url": "https://sarahsegla.github.io/Weather-Dashboard/",
         "GitUrl": "https://github.com/Sarahsegla/Weather-Dashboard"
     },
     {
         "id": 3,
         "caption": "Moviepedia",
-        "image": "images/movie.png",
+        "image": "../image/movie.png",
         "url": "https://mohseenhamid.github.io/tsbc-project-1-moviepedia/",
         "GitUrl": "https://github.com/mohseenHamid/tsbc-project-1-moviepedia"
     },
@@ -30,19 +30,19 @@
     {
         "id": 5,
         "caption": "Professional README Generator",
-        "image": "images/portfolio3.png",
+        "image": "../image/portfolio3.png",
         "url": "https://sarahsegla.github.io/Professional-README-Generator/",
         "GitUrl": "https://github.com/Sarahsegla/Professional-README-Generator"
     },    {
         "id": 6,
         "caption": "Code Quiz",
-        "image": "images/readme.png",
+        "image": "../image/readme.png",
         "url": "https://sarahsegla.github.io/Code-Quiz/",
         "GitUrl": "https://github.com/Sarahsegla/Code-Quiz"
     },    {
         "id": 7,
         "caption": "Console Finances",
-        "image": "images/finance.png",
+        "image": "../image/finance.png",
         "url": "https://sarahsegla.github.io/Console-Finances/",
         "GitUrl": "https://github.com/Sarahsegla/Console-Finances"
     }

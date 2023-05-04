@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-4-0-1",
+  "version": "1.0.0",
+  "description": "## User Story This will be portfolio of webpages, projects and challenges in the bootcamp.\\ Page was made using React.\\ Have images and icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarahsegla/portfolio-4-0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarahsegla/portfolio-4-0/issues"
+  },
+  "homepage": "https://github.com/Sarahsegla/portfolio-4-0#readme"
+}

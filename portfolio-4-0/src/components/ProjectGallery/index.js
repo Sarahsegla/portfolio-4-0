@@ -14,7 +14,7 @@ function ProjectGallery(props) {
 Project && Project.map( Project => {
     return(
         <div className='box' key={ Project.id }>
-            <img  className='projectImage' src={ process.env.PUBLIC_URL + Project.image }  alt=' project'  />
+            <img src={Project.image }  alt=' project'  className='projectImage'/>
            <Button className='caption'variant="outlined" color="error" ><a href={ Project.url}>  { Project.caption }</a> </Button>
            <Button className='git' variant="outlined" color="error"> <a href={ Project.GitUrl}> GitHub Repository</a> </Button>
             </div>
